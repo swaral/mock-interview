@@ -1,0 +1,26 @@
+{
+  "name": "mock-interview",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI mock interview app: CV analysis, spoken technical + HR rounds, camera analysis, detailed report.",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "0.10.14",
+    "@monaco-editor/react": "^4.6.0",
+    "jspdf": "^2.5.2",
+    "mammoth": "^1.8.0",
+    "pdfjs-dist": "^4.10.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
